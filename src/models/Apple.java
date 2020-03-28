@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+package models;
 
-public class Apple {
+public class Apple extends Fruit {
 }

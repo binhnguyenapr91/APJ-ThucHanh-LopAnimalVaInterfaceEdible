@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
+package models;
 
-public class Animal {
+public abstract class Animal {
+    public abstract String makeSound();
 }

@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+package models;
 
-public class Tiger {
+import models.Animal;
+
+public class Tiger extends Animal {
+    @Override
+    public String makeSound() {
+       return "Gruuuuu!";
+    }
 }
